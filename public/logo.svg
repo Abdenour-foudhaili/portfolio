@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    :root {
+      --bg: #15181d;
+      --border: #282d36;
+      --fg: #ece9e2;
+      --accent: #fb923c;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #fcfbf8;
+        --border: #e0dcd2;
+        --fg: #16181d;
+        --accent: #be3e0a;
+      }
+    }
+    .badge { fill: var(--bg); stroke: var(--border); stroke-width: 1.2; }
+    .glyph-main { stroke: var(--fg); stroke-width: 2.2; stroke-linecap: round; }
+    .glyph-accent { stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; }
+  </style>
+  <rect width="32" height="32" rx="7.5" class="badge"/>
+  <path d="M8 24L15.5 8" class="glyph-main"/>
+  <path d="M15.5 8V24" class="glyph-main"/>
+  <path d="M15.5 8H24" class="glyph-accent"/>
+  <path d="M11.75 16H21.5" class="glyph-main"/>
+</svg>

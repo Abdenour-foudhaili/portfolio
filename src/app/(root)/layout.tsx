@@ -1,10 +1,21 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import "../globals.css";
 import { fontClasses } from "@/lib/fonts";
 import Script from "next/script";
 import { themeInitScript } from "@/lib/theme";
 
-export const metadata: Metadata = { title: "Abdenour Foudhaili", robots: { index: false } };
+export const metadata: Metadata = {
+  title: "Abdenour Foudhaili",
+  robots: { index: false },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/icon.svg",
+  },
+};
+
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: dark)", color: "#0e1013" },
@@ -16,6 +27,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" dir="ltr" className={fontClasses} suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
+        <link rel="alternate icon" href="/favicon.ico" />
+      </head>
       <body>{children}</body>
       {/* Exécuté avant l'hydratation : pose data-theme (thème enregistré, sinon préférence système) pour éviter tout flash. */}
       <Script id="theme-init" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: themeInitScript }} />

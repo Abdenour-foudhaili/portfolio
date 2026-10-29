@@ -1,9 +1,10 @@
-"use client";
+﻿"use client";
 import { useState } from "react";
 import type { Dictionary } from "@/types";
 import type { Locale } from "@/i18n/config";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
+import { Logo } from "./Logo";
 
 type Props = { name: string; lang: Locale; nav: Dictionary["nav"]; a11y: Dictionary["a11y"] };
 
@@ -16,9 +17,9 @@ export function Header({ name, lang, nav, a11y }: Props) {
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-bg/85 backdrop-blur-md">
       <div className="wrap flex h-16 items-center justify-between gap-3">
-        <a href="#accueil" className="flex shrink-0 items-center gap-3" aria-label={`${name}, ${a11y.home}`}>
-          <span aria-hidden="true" className="grid h-8 w-8 place-items-center rounded-lg bg-fg font-mono text-xs font-semibold text-bg">AF</span>
-          <span aria-hidden="true" className="hidden text-sm font-medium sm:inline">{name}</span>
+        <a href="#accueil" className="group flex shrink-0 items-center gap-2.5" aria-label={`${name}, ${a11y.home}`}>
+          <Logo size={32} />
+          <span aria-hidden="true" className="hidden text-sm font-semibold tracking-tight transition-colors duration-200 group-hover:text-accent sm:inline">{name}</span>
         </a>
         <nav aria-label={a11y.mainNav} className="hidden items-center gap-6 text-sm text-fg2 lg:flex">
           {links.map(([h, l]) => <a key={h} href={h} className="transition-colors hover:text-fg">{l}</a>)}

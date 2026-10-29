@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import "../globals.css";
 import { fontClasses } from "@/lib/fonts";
 import { themeInitScript } from "@/lib/theme";
@@ -28,6 +28,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL(siteUrl),
     title: d.meta.title,
     description: d.meta.description,
+    icons: {
+      icon: [
+        { url: asset("/favicon.ico"), sizes: "any" },
+        { url: asset("/icon.svg"), type: "image/svg+xml" },
+      ],
+      apple: asset("/icon.svg"),
+    },
     alternates: {
       canonical: path(locale),
       languages: { ...Object.fromEntries(locales.map((l) => [l, path(l)])), "x-default": path(defaultLocale) },
@@ -49,10 +56,13 @@ export default async function LangLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={dirOf(locale)} className={fontClasses} suppressHydrationWarning>
       <head>
-        {/* Exécuté avant l'hydratation : pose data-theme (thème enregistré, sinon préférence système) pour éviter tout flash. */}
+        {/* ExÃ©cutÃ© avant l'hydratation : pose data-theme (thÃ¨me enregistrÃ©, sinon prÃ©fÃ©rence systÃ¨me) pour Ã©viter tout flash. */}
+        <link rel="icon" href={asset("/icon.svg")} type="image/svg+xml" sizes="any" />
+        <link rel="alternate icon" href={asset("/favicon.ico")} />
         <script id="theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body>{children}</body>
     </html>
   );
 }
+
