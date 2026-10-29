@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "title": "Abdenour Foudhaili | Ingénieur logiciel Back-End / Full-Stack",
+    "description": "Portfolio d’Abdenour Foudhaili, élève ingénieur en génie logiciel (ESPRIT) : Java, Spring Boot, NestJS, microservices et DevOps. Recherche un stage PFE Back-End / Full-Stack.",
+    "ogTitle": "Abdenour Foudhaili | Portfolio"
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "mainNav": "Navigation principale",
+    "mobileNav": "Navigation mobile",
+    "menuOpen": "Menu",
+    "menuClose": "Fermer",
+    "language": "Langue",
+    "home": "Accueil",
+    "themeToLight": "Passer au mode clair",
+    "themeToDark": "Passer au mode sombre"
+  },
+  "nav": {
+    "projects": "Projets",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "certifications": "Certifications",
+    "education": "Formation",
+    "contact": "Contact",
+    "cv": "CV"
+  },
+  "hero": {
+    "status": "Recherche un stage PFE en développement Back-End / Full-Stack",
+    "title": "Élève ingénieur en génie logiciel",
+    "headline": "Je construis des services back-end fiables : microservices Java et NestJS, livrés par des pipelines CI/CD.",
+    "ctaProjects": "Découvrir mes projets",
+    "ctaCv": "Télécharger mon CV",
+    "ctaContact": "Me contacter",
+    "photoAlt": "Portrait d’Abdenour Foudhaili",
+    "school": "ESPRIT, cycle ingénieur",
+    "location": "Ariana, Tunisie",
+    "projectsLabel": "Projets phares",
+    "sub": "Élève ingénieur en génie logiciel à ESPRIT, Ariana, Tunisie.",
+    "techLabel": "Technologies principales.",
+    "techList": "Java, Spring Boot, NestJS, Angular, Docker, Kubernetes"
+  },
+  "about": {
+    "title": "À propos",
+    "summary": "Étudiant en 3ᵉ année du cycle ingénieur en génie logiciel à ESPRIT, je construis des applications Java/Spring Boot, Angular et NestJS reposant sur des architectures microservices. J’ai aussi travaillé sur la chaîne DevOps (Docker, Jenkins, Kubernetes), les tests automatisés (JUnit, Mockito) et un outil d’analyse de code et de génération de tests par IA.",
+    "objective": "Je recherche un stage de fin d’études (PFE) en développement Back-End ou Full-Stack, dans une équipe où concevoir, tester et livrer des services fiables fait partie du quotidien.",
+    "interestsTitle": "Centres d’intérêt techniques",
+    "interests": [
+      "Architectures microservices et communication inter-services",
+      "CI/CD, conteneurisation et supervision",
+      "IA appliquée à l’analyse de code et aux tests",
+      "Qualité logicielle : tests automatisés, analyse statique"
+    ],
+    "languagesTitle": "Langues",
+    "languages": [
+      {
+        "name": "Arabe",
+        "level": "Natif"
+      },
+      {
+        "name": "Français",
+        "level": "B2"
+      },
+      {
+        "name": "Anglais",
+        "level": "B2"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "intro": "Regroupées comme dans mon CV, sans pourcentages : chaque technologie listée a été utilisée dans un projet ou un stage.",
+    "groups": {
+      "languages": "Langages",
+      "frameworks": "Frameworks",
+      "architecture": "Architecture et systèmes",
+      "databases": "Bases de données",
+      "devops": "DevOps et qualité",
+      "tools": "Outils et méthodes"
+    },
+    "coreTitle": "Technologies principales",
+    "otherTitle": "Compétences complémentaires"
+  },
+  "experience": {
+    "title": "Expérience professionnelle",
+    "repo": "Code DigiFederation sur GitHub",
+    "items": {
+      "dsi": {
+        "role": "Stagiaire ingénieur PFA, Scrum Master et développeur backend",
+        "org": "ESPRIT, Direction des Systèmes d’Information (DSI)",
+        "place": "Ariana, Tunisie",
+        "period": "Juin 2026 – Août 2026",
+        "points": [
+          "Développement du module Competition de DigiFederation avec NestJS et MongoDB : inscriptions, éligibilité, gestion des terrains et des arbitres, calendriers et classements.",
+          "Conception et configuration de l’API Gateway en Node.js : routage des requêtes vers les microservices et gestion du CORS.",
+          "Contribution aux modules Finance et Licence, avec intégration interservices via HTTP/REST et RabbitMQ.",
+          "Scrum Master d’une équipe de 6 membres : suivi du Sprint Backlog, résolution des blocages et coordination de l’intégration."
+        ]
+      },
+      "beecoders": {
+        "role": "Stagiaire DevOps",
+        "org": "Bee Coders",
+        "place": "À distance",
+        "period": "Août 2025 – Septembre 2025",
+        "points": [
+          "Conteneurisation d’une application Angular/Spring Boot avec Docker et mise en place d’un pipeline CI/CD Jenkins pour automatiser le build et le déploiement.",
+          "Déploiement sur Kubernetes (Pods/Services), supervision avec Grafana et analyse de la qualité du code avec SonarQube."
+        ]
+      }
+    }
+  },
+  "education": {
+    "title": "Formation",
+    "items": {
+      "esprit": {
+        "degree": "Cycle ingénieur en informatique, génie logiciel",
+        "place": "Ariana, Tunisie",
+        "period": "Septembre 2024 – Présent"
+      },
+      "isik": {
+        "degree": "Licence en Sciences Informatiques",
+        "place": "Le Kef, Tunisie",
+        "period": "Septembre 2019 – Août 2023"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "intro": "Chaque fiche détaille l’architecture, ma part du travail et les technologies.",
+    "filterLabel": "Filtrer par technologie",
+    "filters": {
+      "all": "Tous",
+      "Spring": "Spring",
+      "NestJS": "NestJS",
+      "Angular": "Angular",
+      "DevOps": "DevOps",
+      "AI": "IA",
+      "Microservices": "Microservices",
+      "Java": "Java"
+    },
+    "featured": "Projet phare",
+    "viewDetail": "Voir la fiche détaillée",
+    "close": "Fermer",
+    "projectLabel": "Projet",
+    "enlarge": "Agrandir la capture d’écran",
+    "showShot": "Afficher la capture {n}",
+    "shotAlt": "Capture {n} du projet {title}",
+    "sections": {
+      "video": "Démonstration vidéo",
+      "presentation": "Présentation",
+      "features": "Fonctionnalités principales",
+      "architecture": "Composants techniques",
+      "role": "Mon rôle",
+      "challenges": "Difficultés rencontrées et solutions",
+      "stack": "Technologies",
+      "links": "Liens"
+    },
+    "github": "Code sur GitHub",
+    "demo": "Voir la démo en ligne",
+    "placeholder": "Image non disponible",
+    "items": {
+      "ai-code-reviewer": {
+        "title": "AI Code Reviewer",
+        "tagline": "Revue de Pull Requests GitHub par IA, avec génération de tests Java",
+        "summary": "Plateforme d’analyse automatisée des Pull Requests GitHub. Pour chaque Pull Request, elle examine les modifications dans le contexte du reste du code, s’appuie sur un modèle de langage pour détecter les problèmes, puis publie des commentaires contextualisés directement sur les lignes concernées. Elle peut aussi générer des tests unitaires Java et les exécuter dans une sandbox Docker.",
+        "context": "",
+        "features": [
+          "Revue automatique des Pull Requests GitHub, avec des commentaires en ligne classés par gravité",
+          "Analyse du contexte du code au-delà des seules modifications : analyse syntaxique Tree-sitter et recherche de code similaire par embeddings (pgvector)",
+          "Analyse statique avec Semgrep, combinée aux résultats du modèle de langage",
+          "Génération de tests unitaires Java (JUnit 5, Mockito) pour les méthodes modifiées, compilés et exécutés dans une sandbox Docker isolée du réseau",
+          "Fournisseurs de modèles interchangeables (Gemini, Claude, OpenRouter, API compatible OpenAI), avec repli automatique sur un second fournisseur",
+          "Traitement asynchrone des revues et de l’indexation (Redis, BullMQ), avec suivi pas à pas dans un tableau de bord",
+          "Serveur MCP : lancer une revue de ses modifications locales depuis Claude Code"
+        ],
+        "architecture": [
+          {
+            "layer": "API",
+            "items": [
+              "API REST NestJS"
+            ]
+          },
+          {
+            "layer": "Traitement asynchrone",
+            "items": [
+              "Redis",
+              "BullMQ"
+            ]
+          },
+          {
+            "layer": "Analyse du code",
+            "items": [
+              "Tree-sitter",
+              "Semgrep"
+            ]
+          },
+          {
+            "layer": "IA et optimisation",
+            "items": [
+              "Routage Gemini / Claude",
+              "Cache PostgreSQL (SHA-256)"
+            ]
+          },
+          {
+            "layer": "Exécution isolée",
+            "items": [
+              "Sandbox Docker : compilation et tests JUnit 5 / Mockito"
+            ]
+          },
+          {
+            "layer": "Restitution",
+            "items": [
+              "Rapports publiés sur les Pull Requests GitHub"
+            ]
+          }
+        ],
+        "role": "Projet universitaire d’équipe organisé en cinq modules. J’y ai développé la génération de tests Java en sandbox Docker, l’optimisation de l’analyse, le traitement asynchrone et les tests automatisés.",
+        "contributions": [
+          "Pipeline de génération de tests Java : extraction du contexte avec Tree-sitter, génération de tests JUnit 5 / Mockito par LLM, compilation et exécution sécurisées dans une sandbox Docker.",
+          "Optimisation de l’analyse : Semgrep, routage entre les modèles Gemini et Claude et cache PostgreSQL basé sur SHA-256 pour limiter les appels aux LLMs et la consommation de tokens.",
+          "Traitement asynchrone avec Redis et BullMQ, API REST NestJS et publication automatique des rapports sur les Pull Requests GitHub.",
+          "Tests automatisés avec Vitest et tests E2E avec Katalon Recorder (Selenium)."
+        ],
+        "challenges": [],
+        "shots": []
+      },
+      "alzheimer-ehealth": {
+        "title": "Plateforme e-santé de détection des risques d’Alzheimer",
+        "tagline": "Microservice d’assistance quotidienne et notifications temps réel",
+        "summary": "Plateforme basée sur une architecture microservices pour surveiller les patients atteints d’Alzheimer et détecter les situations à risque en temps réel. Elle propose des espaces adaptés à chaque rôle (administrateur, médecin, soignant, aidant, patient), avec une authentification centralisée. Projet réalisé à ESPRIT dans le cadre du PIDEV (4ᵉ année).",
+        "context": "",
+        "features": [
+          "Accès par rôle (administrateur, médecin, soignant, aidant, patient) avec authentification centralisée Keycloak (OAuth2/OIDC)",
+          "Tableau de bord du médecin : patients suivis, rendez-vous du jour, rapports en attente, alertes médicales et critiques",
+          "Évaluation du risque cognitif à partir de données démographiques, du mode de vie et de scores cognitifs, avec un classifieur par arbre de décision",
+          "Suivi de soins au quotidien : rapports médicaux, agenda visuel et fiches de transmission, avec des rapports hebdomadaires validés par le soignant puis envoyés au médecin",
+          "Gestion des utilisateurs et des profils du réseau de soins, avec statistiques de répartition et d’inscription",
+          "Architecture microservices : point d’entrée unique via une API Gateway et découverte dynamique des services (Eureka)",
+          "Chaîne de livraison automatisée : pipelines Jenkins, images Docker publiées sur Nexus, déploiement sur Kubernetes et supervision Prometheus/Grafana"
+        ],
+        "architecture": [
+          {
+            "layer": "Interfaces",
+            "items": [
+              "Angular : médecin, soignant, aidant"
+            ]
+          },
+          {
+            "layer": "Entrée et sécurité",
+            "items": [
+              "API Gateway",
+              "Keycloak"
+            ]
+          },
+          {
+            "layer": "Microservice Assistance quotidienne",
+            "items": [
+              "Spring Boot",
+              "API REST",
+              "WebSocket (STOMP/SockJS)"
+            ]
+          },
+          {
+            "layer": "Chaîne DevOps",
+            "items": [
+              "Docker",
+              "Jenkins",
+              "Kubernetes",
+              "SonarQube",
+              "Prometheus / Grafana"
+            ]
+          }
+        ],
+        "role": "Projet d’équipe réalisé à ESPRIT. J’ai développé le microservice Assistance quotidienne, son intégration aux autres services, les notifications en temps réel et les interfaces Angular associées, et contribué à la chaîne DevOps.",
+        "contributions": [
+          "Développement du microservice Assistance quotidienne : API REST, rapports médicaux, mémoire assistée et fiches de transmission.",
+          "Intégration du microservice aux autres services via OpenFeign et RabbitMQ.",
+          "Notifications en temps réel via WebSocket (STOMP/SockJS) et interfaces Angular.",
+          "Contribution à la chaîne DevOps (Docker, Jenkins CI/CD, Nexus, Kubernetes, SonarQube, Prometheus/Grafana) et tests avec JUnit et Mockito."
+        ],
+        "challenges": [],
+        "shots": [
+          {
+            "alt": "Tableau de bord médecin NeuroMed",
+            "caption": "Tableau de bord médecin : suivi des rendez-vous, alertes cognitives et métriques patients."
+          },
+          {
+            "alt": "Évaluation du risque par IA",
+            "caption": "Évaluation du risque clinique calculée par Decision Tree Classifier."
+          },
+          {
+            "alt": "Rapports hebdomadaires de transmission",
+            "caption": "Suivi hebdomadaire des transmissions et consolidation des soins."
+          },
+          {
+            "alt": "Gestion des utilisateurs et rôles",
+            "caption": "Administration des comptes : répartition des soignants, patients et autorisations."
+          },
+          {
+            "alt": "Supervision Grafana et Kubernetes",
+            "caption": "Monitoring en temps réel des conteneurs de microservices sur cluster Kubernetes."
+          },
+          {
+            "alt": "Pipelines CI/CD Jenkins",
+            "caption": "Intégration et déploiement continus automatisés des microservices."
+          }
+        ]
+      },
+      "digifederation": {
+        "title": "DigiFederation : module Competition",
+        "tagline": "Plateforme de gestion de compétitions sportives en microservices (stage PFA, DSI ESPRIT)",
+        "summary": "DigiFederation est une plateforme de gestion sportive dédiée à une fédération tunisienne du sport scolaire et universitaire, en architecture microservices derrière une API Gateway. Développée pendant mon stage PFA à la Direction des Systèmes d’Information d’ESPRIT, elle est en préparation pour la mise en production.",
+        "context": "Ce projet institutionnel développé pour la Fédération Tunisienne de Sport Scolaire et Universitaire a été officiellement récompensé lors de la cérémonie de clôture à ESPRIT, avec la remise d'un trophée d'honneur et d'une attestation de mérite.",
+        "features": [
+          "Inscriptions des participants et contrôle de leur éligibilité",
+          "Gestion des terrains et des arbitres",
+          "Calendriers des compétitions et classements",
+          "Accès selon le rôle et le périmètre (superviseur général de l’université, délégué régional, responsable d’association)",
+          "API Gateway Node.js : point d’entrée unique, routage vers les microservices et gestion du CORS",
+          "Communication entre les modules Compétitions, Finance et Licences en HTTP/REST et via RabbitMQ"
+        ],
+        "architecture": [
+          {
+            "layer": "Entrée",
+            "items": [
+              "API Gateway Node.js (routage, CORS)"
+            ]
+          },
+          {
+            "layer": "Microservices",
+            "items": [
+              "Competition (NestJS, MongoDB)",
+              "Finance",
+              "Licence"
+            ]
+          },
+          {
+            "layer": "Communication inter-services",
+            "items": [
+              "HTTP/REST",
+              "RabbitMQ"
+            ]
+          }
+        ],
+        "role": "Développeur du module Compétitions et de l’API Gateway, contributeur aux modules Finance et Licences, et Scrum Master d’une équipe de 6 membres.",
+        "contributions": [
+          "Développement du module Compétitions avec NestJS et MongoDB : inscriptions, éligibilité, terrains et arbitres, calendriers et classements.",
+          "Conception et configuration de l’API Gateway en Node.js (routage vers les microservices, CORS).",
+          "Contribution aux modules Finance et Licences, avec intégration interservices via HTTP/REST et RabbitMQ.",
+          "Scrum Master : suivi du Sprint Backlog, résolution des blocages et coordination de l’intégration des services."
+        ],
+        "challenges": [],
+        "shots": [
+          {
+            "alt": "Présentation de DigiFederation sur scène avec la direction de la DSI ESPRIT",
+            "caption": "Présentation officielle de la plateforme DigiFederation sur scène devant la direction de la DSI et les partenaires institutionnels."
+          },
+          {
+            "alt": "Remise du trophée officiel et de l'attestation de mérite à Abdenour Foudhaili",
+            "caption": "Cérémonie officielle : Remise du trophée d'honneur et de l'attestation de mérite à Abdenour Foudhaili pour la réalisation de DigiFederation."
+          }
+        ]
+      },
+      "flashdrop": {
+        "title": "FlashDrop",
+        "tagline": "Plateforme e-commerce de ventes flash en microservices",
+        "summary": "Plateforme e-commerce de ventes flash, en architecture microservices (Spring Cloud, Angular), qui coordonne les commandes, les stocks et les paiements pendant les ventes flash.",
+        "context": "",
+        "features": [
+          "Gestion des commandes, du stock, des paiements et du catalogue produits dans des microservices indépendants",
+          "Gestion des ventes flash (module Flash Sale Management)",
+          "Coordination des commandes, du stock et des paiements entre les services, avec RabbitMQ et OpenFeign"
+        ],
+        "architecture": [
+          {
+            "layer": "Interface",
+            "items": [
+              "Angular"
+            ]
+          },
+          {
+            "layer": "Microservices",
+            "items": [
+              "Commandes",
+              "Stock",
+              "Paiements",
+              "Catalogue produits",
+              "Flash Sale Management"
+            ]
+          },
+          {
+            "layer": "Communication inter-services",
+            "items": [
+              "RabbitMQ",
+              "OpenFeign"
+            ]
+          }
+        ],
+        "role": "Développeur des microservices Commandes, Stock, Paiements et Catalogue produits, et du module Flash Sale Management.",
+        "contributions": [
+          "Développement des microservices Commandes, Stock, Paiements et Catalogue produits.",
+          "Développement du module Flash Sale Management.",
+          "Intégration des communications inter-services avec RabbitMQ et OpenFeign."
+        ],
+        "challenges": [],
+        "shots": []
+      },
+      "plans-incidents": {
+        "title": "Gestion des plans et des incidents en entreprise",
+        "tagline": "Application Java et Symfony avec notifications e-mail et SMS",
+        "summary": "Choufli Hal est une plateforme de gestion des incidents et des plans en entreprise : elle permet de signaler un incident, de le suivre jusqu’à sa résolution et de gérer des plans et leurs tâches, avec des interfaces adaptées aux utilisateurs, aux administrateurs et aux super-administrateurs.",
+        "context": "",
+        "features": [
+          "Signalement des incidents, avec leur type et leur statut, et suivi jusqu’à la résolution",
+          "Gestion des plans, de leurs types et de leurs tâches",
+          "Gestion des équipes et de leurs membres",
+          "Interfaces distinctes pour les utilisateurs, les administrateurs et les super-administrateurs",
+          "Notifications par e-mail et par SMS (JavaMail, Twilio)",
+          "Pagination et tri avancé des listes"
+        ],
+        "architecture": [],
+        "role": "Développeur des fonctionnalités de gestion des plans, des notifications e-mail/SMS, de la pagination et du tri avancé.",
+        "contributions": [
+          "Développement des fonctionnalités de gestion des plans avec JavaFX et Symfony.",
+          "Intégration des notifications e-mail/SMS (JavaMail, Twilio), pagination et tri avancé."
+        ],
+        "challenges": [],
+        "shots": []
+      }
+    },
+    "posterAlt": "Aperçu de la démo vidéo : {title}"
+  },
+  "certifications": {
+    "title": "Certifications",
+    "intro": "Informations reprises telles qu’elles figurent sur les documents officiels. Cliquez sur un certificat pour le lire en grand.",
+    "enlarge": "Agrandir le certificat {issuer}",
+    "imageAlt": "Certificat : {name}",
+    "verify": "Vérifier ce certificat",
+    "imageSoon": "Image du certificat non disponible",
+    "items": {
+      "hedera-hcf": {
+        "name": "Hedera Certified Foundation (HCF)",
+        "date": "29 octobre 2026"
+      },
+      "dauphine-dtxe": {
+        "name": "Attestation d’achèvement : Digital Training × Elife (DTxE), Full Stack Java / Spring Boot",
+        "date": "Janvier à Juillet 2024 (attestation du 26/11/2024)"
+      },
+      "devops-the-bridge": {
+        "name": "Certificate of Completion : formation et coaching DevOps (2 mois)",
+        "date": "08/10/2025"
+      },
+      "nvidia-dl": {
+        "name": "Certificate of Competency : Fundamentals of Deep Learning",
+        "date": "14 avril 2025"
+      },
+      "beecoders-angular-spring": {
+        "name": "Formation Angular / Spring Boot",
+        "date": "Octobre à Décembre 2023"
+      }
+    }
+  },
+  "lightbox": {
+    "label": "Image en grand format",
+    "close": "Fermer",
+    "prev": "Précédente",
+    "next": "Suivante",
+    "counter": "{n} / {total}"
+  },
+  "cv": {
+    "title": "Mon CV",
+    "open": "Ouvrir le CV (PDF)",
+    "download": "Télécharger",
+    "view": "Ouvrir"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "{status}. Le moyen le plus rapide de me joindre : l’e-mail.",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "location": "Localisation",
+    "locationValue": "Ariana, Tunisie"
+  },
+  "footer": {
+    "rights": "Tous droits réservés"
+  }
+}

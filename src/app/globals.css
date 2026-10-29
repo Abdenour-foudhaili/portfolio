@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   DESIGN SYSTEM : « Graphite & Braise »
+   Une seule source de vérité pour les deux thèmes. Canaux RGB pour permettre /opacité.
+   Sans attribut data-theme (ou sans JS) : thème sombre.
+   ============================================================================ */
+:root {
+  color-scheme: dark;
+  /* Surfaces : 3 niveaux (fond < surface < surface-2) */
+  --bg: 14 16 19; --surface: 21 24 29; --surface-2: 28 32 39;
+  --line: 40 45 54; --line-strong: 64 71 84;
+  /* Texte : principal / secondaire / tertiaire */
+  --fg: 236 233 226; --fg-2: 170 175 186; --fg-3: 139 145 157;
+  /* Accent unique (braise) + texte posé dessus + état */
+  --accent: 251 146 60; --accent-fg: 24 15 6; --ok: 74 222 128;
+  --radius: 14px;
+  --shadow-card: 0 1px 0 rgb(255 255 255 / .03) inset, 0 14px 30px -18px rgb(0 0 0 / .7);
+  --shadow-pop: 0 30px 80px -20px rgb(0 0 0 / .75);
+}
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: 245 243 238; --surface: 252 251 248; --surface-2: 237 234 227;
+  --line: 224 220 210; --line-strong: 196 190 177;
+  --fg: 22 24 29; --fg-2: 70 76 92; --fg-3: 94 100 116;
+  --accent: 190 62 10; --accent-fg: 255 250 245; --ok: 21 128 61;
+  --shadow-card: 0 1px 2px rgb(22 24 29 / .05), 0 14px 30px -20px rgb(22 24 29 / .22);
+  --shadow-pop: 0 30px 70px -24px rgb(22 24 29 / .35);
+}
+
+@layer base {
+  html { scroll-behavior: smooth; background: rgb(var(--bg)); }
+  body { @apply bg-bg font-sans text-base text-fg antialiased; font-feature-settings: "ss01", "cv11"; }
+  section[id] { scroll-margin-top: 4rem; } /* = hauteur du header : le filet du header et celui de la section se superposent */
+  h1, h2, h3 { @apply font-display; font-optical-sizing: auto; }
+  :focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 3px; border-radius: 6px; }
+  ::selection { background: rgb(var(--accent)); color: rgb(var(--accent-fg)); }
+  /* Arabe : l'espacement négatif des lettres casse la liaison des caractères. */
+  [dir="rtl"] body, [dir="rtl"] body * { letter-spacing: normal; }
+  [dir="rtl"] body { line-height: 1.8; }
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 { font-weight: 600; }
+}
+
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8 lg:px-10; }
+
+  /* Boutons : primaire = encre inversée (l'accent apparaît au survol), discret = contour */
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-medium transition-[colors,transform] duration-200 active:scale-[.98] max-sm:min-h-11; }
+  .btn-primary { @apply btn bg-fg text-bg hover:bg-accent hover:text-accentFg; }
+  .btn-quiet { @apply btn border border-lineStrong text-fg hover:border-fg; }
+  .btn-sm { @apply !px-3 !py-1.5; }
+
+  /* Liens de texte */
+  .link { @apply underline decoration-lineStrong decoration-1 underline-offset-[5px] transition-colors hover:text-accent hover:decoration-accent; }
+
+  /* Étiquette technique (utilisée avec parcimonie : fenêtres de détail) */
+  .tag { @apply inline-block rounded-md border border-line px-2 py-0.5 font-mono text-xs text-fg2; }
+  .eyebrow { @apply font-mono text-xs uppercase tracking-[0.14em] text-fg3; }
+  .surface { @apply rounded-card border border-line bg-surface shadow-card; }
+}
+
+dialog { color: inherit; }
+dialog[open] { animation: pop .2s ease-out; }
+@keyframes pop { from { opacity: 0; transform: translateY(10px) scale(.985); } }
+
+/* Entrée de la page d'accueil : séquence unique, courte. */
+.rise { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 90ms); }
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } }
+
+/* Apparition au défilement (CSS pur, ignorée par les navigateurs qui ne savent pas faire). */
+@supports (animation-timeline: view()) {
+  .reveal { animation: reveal linear both; animation-timeline: view(); animation-range: entry 0% entry 30%; }
+}
+@keyframes reveal { from { opacity: 0; transform: translateY(18px); } }
+
+/* Apparition d'un élément quand un filtre le révèle. */
+.fade-in { animation: fade-in .3s ease both; }
+@keyframes fade-in { from { opacity: 0; transform: translateY(8px); } }
+dialog[open]::backdrop { animation: fade-backdrop .2s ease-out; }
+@keyframes fade-backdrop { from { opacity: 0; } }
+
+/* Bouton de thème : fondu/rotation entre soleil et lune (pur CSS, aucun décalage à l'hydratation). */
+.theme-icons { position: relative; display: block; height: 1.25rem; width: 1.25rem; }
+.theme-icons svg { position: absolute; inset: 0; transition: opacity .25s ease, transform .35s cubic-bezier(.2,.7,.2,1); }
+[data-theme="light"] .icon-moon, :root:not([data-theme="light"]) .icon-sun { opacity: 0; transform: rotate(-60deg) scale(.6); }
+[data-theme="light"] .icon-sun, :root:not([data-theme="light"]) .icon-moon { opacity: 1; transform: none; }
+
+/* Fondu court lors du basculement manuel uniquement (classe posée puis retirée par applyTheme). */
+html.theme-transition, html.theme-transition *, html.theme-transition *::before, html.theme-transition *::after {
+  transition: background-color .25s ease, color .25s ease, border-color .25s ease, fill .25s ease, stroke .25s ease !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rise, .reveal, .fade-in, dialog[open], dialog[open]::backdrop { animation: none !important; }
+  .theme-icons svg { transition: none; }
+  html.theme-transition, html.theme-transition * { transition: none !important; }
+}

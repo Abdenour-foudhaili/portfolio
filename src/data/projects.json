@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "ai-code-reviewer",
+    "featured": true,
+    "tags": [
+      "NestJS",
+      "AI",
+      "DevOps"
+    ],
+    "stack": [
+      "NestJS",
+      "Docker",
+      "Tree-sitter",
+      "Semgrep",
+      "PostgreSQL",
+      "Redis",
+      "BullMQ",
+      "JUnit 5",
+      "Mockito",
+      "Gemini",
+      "Claude",
+      "Vitest",
+      "Katalon Recorder"
+    ],
+    "images": [],
+    "video": "/media/videos/ai-code-reviewer.mp4",
+    "github": "https://github.com/Sliim-Bouzidi/The-AI-Code-Reviewer",
+    "demo": null,
+    "poster": null
+  },
+  {
+    "slug": "alzheimer-ehealth",
+    "featured": true,
+    "tags": [
+      "Spring",
+      "Angular",
+      "Microservices",
+      "DevOps"
+    ],
+    "stack": [
+      "Spring Boot",
+      "Angular",
+      "WebSocket",
+      "Keycloak",
+      "Docker",
+      "Jenkins",
+      "Kubernetes",
+      "SonarQube",
+      "Prometheus",
+      "Grafana",
+      "JUnit",
+      "Mockito"
+    ],
+    "images": [
+      {
+        "src": "/media/projects/alzheimer-ehealth/01-doctor-dashboard.jpg"
+      },
+      {
+        "src": "/media/projects/alzheimer-ehealth/02-ai-risk-assessment.jpg"
+      },
+      {
+        "src": "/media/projects/alzheimer-ehealth/03-caregiver-reports.jpg"
+      },
+      {
+        "src": "/media/projects/alzheimer-ehealth/04-user-management.jpg"
+      },
+      {
+        "src": "/media/projects/alzheimer-ehealth/05-kubernetes-grafana.jpg"
+      },
+      {
+        "src": "/media/projects/alzheimer-ehealth/06-jenkins-cicd.jpg"
+      }
+    ],
+    "video": "/media/videos/Alzheimer.mp4",
+    "github": "https://github.com/Slim-Bouzidi/Esprit-PIDEV-4SAE7-2026-AlzheimerCare",
+    "demo": null,
+    "poster": "/media/projects/alzheimer-ehealth/01-doctor-dashboard.jpg"
+  },
+  {
+    "slug": "digifederation",
+    "featured": true,
+    "tags": [
+      "NestJS",
+      "Microservices"
+    ],
+    "stack": [
+      "NestJS",
+      "MongoDB",
+      "Node.js",
+      "RabbitMQ",
+      "REST API"
+    ],
+    "images": [
+      {
+        "src": "/media/projects/digifederation/ceremonie-equipe.avif"
+      },
+      {
+        "src": "/media/projects/digifederation/ceremonie-trophee.avif"
+      }
+    ],
+    "video": "/media/videos/DigiFederation.mp4",
+    "github": "https://github.com/ESPRIT-DSI-INTERS/DigiFederation_finance_licence_competition",
+    "demo": null,
+    "poster": "/media/projects/digifederation/ceremonie-equipe.avif"
+  },
+  {
+    "slug": "flashdrop",
+    "featured": false,
+    "tags": [
+      "Spring",
+      "Angular",
+      "Microservices"
+    ],
+    "stack": [
+      "Spring Cloud",
+      "Angular",
+      "RabbitMQ",
+      "OpenFeign"
+    ],
+    "images": [],
+    "video": null,
+    "github": "https://github.com/Abdenour-foudhaili/Flash-Drop/tree/docker-integration",
+    "demo": null,
+    "poster": null
+  },
+  {
+    "slug": "plans-incidents",
+    "featured": false,
+    "tags": [
+      "Java"
+    ],
+    "stack": [
+      "Java",
+      "Symfony",
+      "JavaFX",
+      "JavaMail",
+      "Twilio"
+    ],
+    "images": [],
+    "video": "/media/videos/plans-incidents.mp4",
+    "github": "https://github.com/esprit-3a30/choufli_hall_web",
+    "demo": null,
+    "poster": null
+  }
+]

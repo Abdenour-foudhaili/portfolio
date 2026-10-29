@@ -1,0 +1,52 @@
+[
+  {
+    "id": "hedera-hcf",
+    "issuer": "The Hashgraph Association",
+    "image": "/media/certifications/hedera-certified-foundation.webp",
+    "skills": [
+      "Hedera",
+      "DLT",
+      "Web3"
+    ],
+    "verifyUrl": "https://certs.hashgraphdev.com/bcb9f73d-20c9-47f1-8fc1-252f1dcce5c9.pdf?v=da0e2919"
+  },
+  {
+    "id": "dauphine-dtxe",
+    "issuer": "Université Dauphine Tunis | PSL",
+    "image": "/media/certifications/dauphine-dtxe-fullstack.webp",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Full-Stack"
+    ],
+    "verifyUrl": null
+  },
+  {
+    "id": "devops-the-bridge",
+    "issuer": "The Bridge (9antra)",
+    "image": "/media/certifications/devops-the-bridge.webp",
+    "skills": [
+      "DevOps"
+    ],
+    "verifyUrl": null
+  },
+  {
+    "id": "nvidia-dl",
+    "issuer": "NVIDIA",
+    "image": "/media/certifications/nvidia-deep-learning.webp",
+    "skills": [
+      "Deep Learning"
+    ],
+    "verifyUrl": "https://learn.nvidia.com/certificates?id=lir0qKNTQ-O4WDiCEhutUQ"
+  },
+  {
+    "id": "beecoders-angular-spring",
+    "issuer": "Bee Coders",
+    "image": null,
+    "skills": [
+      "Angular",
+      "Spring Boot"
+    ],
+    "verifyUrl": null
+  }
+]
