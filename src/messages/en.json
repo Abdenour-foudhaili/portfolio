@@ -306,46 +306,53 @@
         ]
       },
       "digifederation": {
-        "title": "DigiFederation: Competition module",
-        "tagline": "Sports competition management platform built on microservices (PFA internship, ESPRIT DSI)",
-        "summary": "DigiFederation is a sports management platform for a Tunisian school and university sports federation, built on a microservices architecture behind an API Gateway. Developed during my PFA internship at ESPRIT’s Information Systems Department, it is being prepared for production.",
+        "title": "DigiFederation",
+        "tagline": "School and university sports management platform on microservices (PFA internship, ESPRIT DSI)",
+        "summary": "DigiFederation is a school and university sports management platform for a Tunisian federation, built by seven teams with distinct scopes. My team was responsible for the Finance / Licences / Competitions scope: licence applications and the digital licence, competitions, matches and rankings. Project carried out during my PFA internship at ESPRIT’s Information Systems Department, and being prepared for production.",
         "features": [
-          "Participant registration and eligibility checks",
-          "Management of fields and referees",
-          "Competition schedules and rankings",
-          "Access by role and scope (general university supervisor, regional delegate, association manager)",
-          "Node.js API Gateway: single entry point, routing to the microservices and CORS handling",
-          "Communication between the Competitions, Finance and Licences modules over HTTP/REST and through RabbitMQ"
+          "Licences: application with supporting documents (ID card, photo, medical certificate, parental authorization), document review with approval or reasoned rejection, application status tracking",
+          "Official digital licence: card showing category, club, season and QR code, exportable as PDF",
+          "Competitions: tracking by status (registration open, ongoing, finished), discipline, season and venue",
+          "Match schedule and match sheets entered in the referee space (scores, attendance, goals, cards), with rankings calculated automatically and published when the competition closes",
+          "Participation commitments: number of teams per institution, sport and category for the season",
+          "Access by role and scope (general supervisor, regional delegate, association manager, teacher, student)",
+          "Other scopes, built by other teams: authentication and users, members and clubs, communication and documents, statistics, website and mobile application"
         ],
         "architecture": [
           {
-            "layer": "Entry point",
+            "layer": "My team: Finance / Licences / Competitions",
             "items": [
-              "Node.js API Gateway (routing, CORS)"
+              "Competitions module (NestJS, MongoDB)",
+              "Licences module",
+              "Finance module"
             ]
           },
           {
-            "layer": "Microservices",
+            "layer": "Gateway and exchanges",
             "items": [
-              "Competition (NestJS, MongoDB)",
-              "Finance",
-              "Licence"
-            ]
-          },
-          {
-            "layer": "Inter-service communication",
-            "items": [
+              "Node.js API Gateway (routing, CORS)",
               "HTTP/REST",
               "RabbitMQ"
             ]
+          },
+          {
+            "layer": "Other teams",
+            "items": [
+              "Authentication / Users",
+              "Members / Clubs",
+              "Communication / Documents / Portal",
+              "Statistics / Reporting",
+              "Web front-end",
+              "Mobile application"
+            ]
           }
         ],
-        "role": "Developer of the Competitions module and the API Gateway, contributor to the Finance and Licences modules, and Scrum Master of a team of 6 members.",
+        "role": "Scrum Master of the Finance / Licences / Competitions team (6 members), one of the project’s seven scopes, and backend developer within that team.",
         "contributions": [
-          "Development of the Competitions module with NestJS and MongoDB: registrations, eligibility, fields and referees, schedules and rankings.",
-          "Design and configuration of the Node.js API Gateway (routing to the microservices, CORS).",
-          "Contribution to the Finance and Licences modules, with inter-service integration via HTTP/REST and RabbitMQ.",
-          "Scrum Master: Sprint Backlog follow-up, unblocking issues and coordinating the integration of the services."
+          "Scrum Master: team coordination, Sprint Backlog follow-up, unblocking issues and coordinating the integration of the services.",
+          "Development of the Competitions module with NestJS and MongoDB: registrations, participant eligibility, fields and referees, schedules and rankings.",
+          "Design and configuration of the Node.js API Gateway: routing to the microservices and CORS handling.",
+          "Contribution to the Finance and Licences modules, with inter-service integration via HTTP/REST and RabbitMQ."
         ],
         "context": "This institutional project developed for the Tunisian School and University Sports Federation was officially honored during the closing ceremony at ESPRIT, with an honorary trophy and certificate of merit.",
         "challenges": [],

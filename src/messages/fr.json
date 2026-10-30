@@ -306,47 +306,54 @@
         ]
       },
       "digifederation": {
-        "title": "DigiFederation : module Competition",
-        "tagline": "Plateforme de gestion de compétitions sportives en microservices (stage PFA, DSI ESPRIT)",
-        "summary": "DigiFederation est une plateforme de gestion sportive dédiée à une fédération tunisienne du sport scolaire et universitaire, en architecture microservices derrière une API Gateway. Développée pendant mon stage PFA à la Direction des Systèmes d’Information d’ESPRIT, elle est en préparation pour la mise en production.",
+        "title": "DigiFederation",
+        "tagline": "Plateforme de gestion du sport scolaire et universitaire en microservices (stage PFA, DSI ESPRIT)",
+        "summary": "DigiFederation est une plateforme de gestion du sport scolaire et universitaire pour une fédération tunisienne, développée par sept équipes aux périmètres distincts. Mon équipe était responsable du périmètre Finance / Licences / Compétitions : demandes de licences et licence numérique, compétitions, matchs et classements. Projet réalisé pendant mon stage PFA à la Direction des Systèmes d’Information d’ESPRIT, en préparation pour la mise en production.",
         "context": "Ce projet institutionnel développé pour la Fédération Tunisienne de Sport Scolaire et Universitaire a été officiellement récompensé lors de la cérémonie de clôture à ESPRIT, avec la remise d'un trophée d'honneur et d'une attestation de mérite.",
         "features": [
-          "Inscriptions des participants et contrôle de leur éligibilité",
-          "Gestion des terrains et des arbitres",
-          "Calendriers des compétitions et classements",
-          "Accès selon le rôle et le périmètre (superviseur général de l’université, délégué régional, responsable d’association)",
-          "API Gateway Node.js : point d’entrée unique, routage vers les microservices et gestion du CORS",
-          "Communication entre les modules Compétitions, Finance et Licences en HTTP/REST et via RabbitMQ"
+          "Licences : demande avec pièces justificatives (CIN, photo, certificat médical, autorisation parentale), examen des pièces avec validation ou refus motivé, suivi du statut des demandes",
+          "Licence numérique officielle : carte avec catégorie, club, saison et QR code, exportable en PDF",
+          "Compétitions : suivi par état (inscriptions ouvertes, en cours, terminées), discipline, saison et lieu",
+          "Calendrier des matchs et feuilles de match saisies dans l’espace de l’arbitre (scores, présences, buts, cartons), avec classement calculé automatiquement et publié à la clôture",
+          "Engagements de participation : nombre d’équipes par établissement, sport et catégorie pour la saison",
+          "Accès selon le rôle et le périmètre (superviseur général, délégué régional, responsable d’association, enseignant, élève)",
+          "Autres périmètres, développés par d’autres équipes : authentification et utilisateurs, membres et clubs, communication et documents, statistiques, site web et application mobile"
         ],
         "architecture": [
           {
-            "layer": "Entrée",
+            "layer": "Mon équipe : Finance / Licences / Compétitions",
             "items": [
-              "API Gateway Node.js (routage, CORS)"
+              "Module Compétitions (NestJS, MongoDB)",
+              "Module Licences",
+              "Module Finance"
             ]
           },
           {
-            "layer": "Microservices",
+            "layer": "Passerelle et échanges",
             "items": [
-              "Competition (NestJS, MongoDB)",
-              "Finance",
-              "Licence"
-            ]
-          },
-          {
-            "layer": "Communication inter-services",
-            "items": [
+              "API Gateway Node.js (routage, CORS)",
               "HTTP/REST",
               "RabbitMQ"
             ]
+          },
+          {
+            "layer": "Autres équipes",
+            "items": [
+              "Authentification / Utilisateurs",
+              "Membres / Clubs",
+              "Communication / Documents / Portail",
+              "Statistiques / Reporting",
+              "Front-End web",
+              "Application mobile"
+            ]
           }
         ],
-        "role": "Développeur du module Compétitions et de l’API Gateway, contributeur aux modules Finance et Licences, et Scrum Master d’une équipe de 6 membres.",
+        "role": "Scrum Master de l’équipe Finance / Licences / Compétitions (6 membres), l’un des sept périmètres du projet, et développeur backend au sein de cette équipe.",
         "contributions": [
-          "Développement du module Compétitions avec NestJS et MongoDB : inscriptions, éligibilité, terrains et arbitres, calendriers et classements.",
-          "Conception et configuration de l’API Gateway en Node.js (routage vers les microservices, CORS).",
-          "Contribution aux modules Finance et Licences, avec intégration interservices via HTTP/REST et RabbitMQ.",
-          "Scrum Master : suivi du Sprint Backlog, résolution des blocages et coordination de l’intégration des services."
+          "Scrum Master : coordination de l’équipe, suivi du Sprint Backlog, résolution des blocages et coordination de l’intégration des services.",
+          "Développement du module Compétitions avec NestJS et MongoDB : inscriptions, éligibilité des participants, terrains et arbitres, calendriers et classements.",
+          "Conception et configuration de l’API Gateway en Node.js : routage vers les microservices et gestion du CORS.",
+          "Contribution aux modules Finance et Licences, avec intégration interservices via HTTP/REST et RabbitMQ."
         ],
         "challenges": [],
         "shots": [
