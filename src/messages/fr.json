@@ -90,10 +90,10 @@
         "place": "Ariana, Tunisie",
         "period": "Juin 2026 – Août 2026",
         "points": [
-          "Développement du module Competition de DigiFederation avec NestJS et MongoDB : inscriptions, éligibilité, gestion des terrains et des arbitres, calendriers et classements.",
+          "Scrum Master de l’équipe Finance / Licences / Compétitions (6 membres) sur DigiFederation, plateforme de gestion sportive d’une fédération tunisienne développée par sept équipes : suivi du Sprint Backlog, résolution des blocages et coordination de l’intégration des services.",
+          "Développement du module Compétitions avec NestJS et MongoDB : inscriptions, éligibilité des participants, gestion des terrains et des arbitres, calendriers et classements.",
           "Conception et configuration de l’API Gateway en Node.js : routage des requêtes vers les microservices et gestion du CORS.",
-          "Contribution aux modules Finance et Licence, avec intégration interservices via HTTP/REST et RabbitMQ.",
-          "Scrum Master d’une équipe de 6 membres : suivi du Sprint Backlog, résolution des blocages et coordination de l’intégration."
+          "Contribution aux modules Finance et Licences, avec intégration interservices via HTTP/REST et RabbitMQ."
         ]
       },
       "beecoders": {
@@ -190,7 +190,8 @@
             "layer": "Analyse du code",
             "items": [
               "Tree-sitter",
-              "Semgrep"
+              "Semgrep",
+              "pgvector (recherche de code similaire)"
             ]
           },
           {
@@ -209,7 +210,9 @@
           {
             "layer": "Restitution",
             "items": [
-              "Rapports publiés sur les Pull Requests GitHub"
+              "Commentaires et rapports sur les Pull Requests GitHub",
+              "Tableau de bord web (Next.js)",
+              "Serveur MCP (Claude Code)"
             ]
           }
         ],
@@ -252,11 +255,28 @@
             ]
           },
           {
+            "layer": "Découverte des services",
+            "items": [
+              "Eureka"
+            ]
+          },
+          {
+            "layer": "Services du projet",
+            "items": [
+              "Utilisateurs",
+              "Patients",
+              "Médecins",
+              "Cognitif"
+            ]
+          },
+          {
             "layer": "Microservice Assistance quotidienne",
             "items": [
               "Spring Boot",
               "API REST",
-              "WebSocket (STOMP/SockJS)"
+              "WebSocket (STOMP/SockJS)",
+              "OpenFeign",
+              "RabbitMQ"
             ]
           },
           {
@@ -264,6 +284,7 @@
             "items": [
               "Docker",
               "Jenkins",
+              "Nexus",
               "Kubernetes",
               "SonarQube",
               "Prometheus / Grafana"

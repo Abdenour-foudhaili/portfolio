@@ -90,10 +90,10 @@
         "place": "Ariana, Tunisia",
         "period": "June 2026 – August 2026",
         "points": [
-          "Development of the DigiFederation Competition module with NestJS and MongoDB: registrations, eligibility, management of fields and referees, schedules and rankings.",
+          "Scrum Master of the Finance / Licences / Competitions team (6 members) on DigiFederation, a sports management platform for a Tunisian federation built by seven teams: Sprint Backlog follow-up, unblocking issues and coordinating the integration of the services.",
+          "Development of the Competitions module with NestJS and MongoDB: registrations, participant eligibility, management of fields and referees, schedules and rankings.",
           "Design and configuration of the Node.js API Gateway: routing requests to the microservices and handling CORS.",
-          "Contribution to the Finance and Licence modules, with inter-service integration via HTTP/REST and RabbitMQ.",
-          "Scrum Master of a team of 6 members: Sprint Backlog follow-up, unblocking issues and coordinating integration."
+          "Contribution to the Finance and Licences modules, with inter-service integration via HTTP/REST and RabbitMQ."
         ]
       },
       "beecoders": {
@@ -189,7 +189,8 @@
             "layer": "Code analysis",
             "items": [
               "Tree-sitter",
-              "Semgrep"
+              "Semgrep",
+              "pgvector (similar-code search)"
             ]
           },
           {
@@ -208,7 +209,9 @@
           {
             "layer": "Reporting",
             "items": [
-              "Reports published on GitHub Pull Requests"
+              "Comments and reports on GitHub Pull Requests",
+              "Web dashboard (Next.js)",
+              "MCP server (Claude Code)"
             ]
           }
         ],
@@ -251,11 +254,28 @@
             ]
           },
           {
+            "layer": "Service discovery",
+            "items": [
+              "Eureka"
+            ]
+          },
+          {
+            "layer": "Project services",
+            "items": [
+              "Users",
+              "Patients",
+              "Doctors",
+              "Cognitive"
+            ]
+          },
+          {
             "layer": "Daily Assistance microservice",
             "items": [
               "Spring Boot",
               "REST API",
-              "WebSocket (STOMP/SockJS)"
+              "WebSocket (STOMP/SockJS)",
+              "OpenFeign",
+              "RabbitMQ"
             ]
           },
           {
@@ -263,6 +283,7 @@
             "items": [
               "Docker",
               "Jenkins",
+              "Nexus",
               "Kubernetes",
               "SonarQube",
               "Prometheus / Grafana"

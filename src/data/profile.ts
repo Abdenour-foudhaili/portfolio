@@ -18,14 +18,14 @@ export const profile = {
     { name: "Java / Spring Boot", parts: ["Java", "Spring Boot"], related: ["Spring Cloud", "JPA/Hibernate", "JUnit", "Mockito"] },
     { name: "NestJS", parts: ["NestJS"], related: ["Node.js", "TypeScript", "MongoDB", "REST API"] },
     { name: "Angular", parts: ["Angular"], related: ["TypeScript", "WebSocket"] },
-    { name: "Docker / Kubernetes", parts: ["Docker", "Kubernetes"], related: ["Jenkins (CI/CD)", "SonarQube", "Prometheus", "Grafana"] },
+    { name: "Docker / Kubernetes", parts: ["Docker", "Kubernetes"], related: ["Jenkins (CI/CD)", "Nexus", "SonarQube", "Prometheus", "Grafana"] },
   ],
   skills: [
     { id: "languages", items: ["Java", "TypeScript", "JavaScript", "SQL", "PHP"] },
     { id: "frameworks", items: ["Spring Boot", "Spring Cloud", "NestJS", "Node.js", "Next.js", "Angular", "JPA/Hibernate", "Symfony", "JavaFX"] },
     { id: "architecture", items: ["Microservices", "API Gateway", "REST API", "WebSocket", "RabbitMQ", "OpenFeign", "Keycloak"] },
     { id: "databases", items: ["PostgreSQL", "Redis", "MySQL", "MongoDB"] },
-    { id: "devops", items: ["Docker", "Kubernetes", "Jenkins (CI/CD)", "SonarQube", "Semgrep (SAST)", "Prometheus", "Grafana"] },
+    { id: "devops", items: ["Docker", "Kubernetes", "Jenkins (CI/CD)", "Nexus", "SonarQube", "Semgrep (SAST)", "Prometheus", "Grafana"] },
     { id: "tools", items: ["Git", "Maven", "Vitest", "Selenium (Katalon Recorder)", "JUnit", "Mockito", "Tree-sitter", "Agile", "Scrum", "Power BI"] },
   ],
   experience: [
