@@ -1,4 +1,4 @@
-﻿import type { Dictionary, Project } from "@/types";
+import type { Dictionary, Project } from "@/types";
 import { fmt } from "@/i18n/dictionary";
 import { Shot } from "./Shot";
 import { ArchitectureDiagram } from "./ArchitectureDiagram";
@@ -16,7 +16,7 @@ export function ProjectVisual({ p, t, aspect }: Props) {
           src={image.src}
           alt={image.alt}
           label={t.placeholder}
-          className={`${aspect} w-full rounded-none border-0 object-cover object-center transition-transform duration-500 group-hover:scale-[1.03]`}
+          className={`${aspect} w-full rounded-none border-0 object-contain object-center transition-transform duration-500 group-hover:scale-[1.03]`}
         />
       </span>
     );
