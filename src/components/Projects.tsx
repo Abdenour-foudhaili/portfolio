@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { useState } from "react";
 import type { Dictionary, Project } from "@/types";
 import { Section } from "./Section";
@@ -33,15 +33,42 @@ function Gallery({ project, t, lightbox, rtl }: { project: Project; t: T; lightb
   if (imgs.length === 0) return null;
   return (
     <div>
-      <button type="button" onClick={() => setZoom(current)} className="block w-full overflow-hidden rounded-card border border-line bg-surface2 transition-opacity hover:opacity-95" aria-label={t.enlarge}>
-        <Shot src={imgs[current].src} alt={imgs[current].alt} label={t.placeholder} className="h-auto w-full object-contain" />
+      <button
+        type="button"
+        onClick={() => setZoom(current)}
+        className="group relative block aspect-[16/9] w-full overflow-hidden rounded-card border border-line bg-surface2 transition-opacity hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        aria-label={t.enlarge}
+      >
+        <Shot
+          src={imgs[current].src}
+          alt={imgs[current].alt}
+          label={t.placeholder}
+          className={`h-full w-full ${imgs[current]?.fit === "cover" ? "object-cover" : "object-contain"} object-center transition-transform duration-300 group-hover:scale-[1.01]`}
+        />
       </button>
       {imgs.length > 1 && (
         <ul className="mt-3 flex gap-2 overflow-x-auto pb-1">
           {imgs.map((im, i) => (
             <li key={im.src} className="shrink-0">
-              <button type="button" onClick={() => setCurrent(i)} aria-label={fmt(t.showShot, { n: i + 1 })} aria-current={i === current} className={`block overflow-hidden rounded-md border ${i === current ? "border-accent" : "border-line"}`}>
-                <Shot src={im.src} alt="" label={t.placeholder} className="h-16 w-28 object-cover object-top" />
+              <button
+                type="button"
+                onClick={() => setCurrent(i)}
+                aria-label={fmt(t.showShot, { n: i + 1 })}
+                aria-current={i === current}
+                className={`block overflow-hidden rounded-md border transition-all ${
+                  i === current
+                    ? "border-accent ring-1 ring-accent"
+                    : "border-line opacity-75 hover:border-lineStrong hover:opacity-100"
+                }`}
+              >
+                <div className="relative aspect-[16/9] w-28 bg-surface2">
+                  <Shot
+                    src={im.src}
+                    alt=""
+                    label={t.placeholder}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
               </button>
             </li>
           ))}
@@ -191,7 +218,7 @@ function CompactCard({
         aria-label={p.title}
         className="block w-full overflow-hidden border-b border-line text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
       >
-        <ProjectVisual p={p} t={t} aspect="aspect-[16/8]" />
+        <ProjectVisual p={p} t={t} aspect="aspect-[16/9]" />
       </button>
       <div className="flex flex-1 flex-col p-6">
         <button

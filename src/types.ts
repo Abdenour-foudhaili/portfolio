@@ -1,6 +1,6 @@
 import type fr from "@/messages/fr.json";
 
-export type Shot = { src: string; alt: string; caption?: string };
+export type Shot = { src: string; alt: string; caption?: string; fit?: "cover" | "contain" };
 
 /** Données techniques d'un projet, identiques dans toutes les langues (src/data/projects.json). */
 export type ProjectMeta = {
@@ -10,7 +10,7 @@ export type ProjectMeta = {
   tags: string[];
   stack: string[];
   /** Chemins depuis /public. Le texte alternatif vient de messages/*.json (projects.items.<slug>.shots), sinon un texte générique. */
-  images: { src: string }[];
+  images: { src: string; fit?: "cover" | "contain" }[];
   /** Image tirée de la vidéo de démo (aperçu de carte) ; null = schéma d'architecture généré à partir des données. */
   poster: string | null;
   video: string | null;

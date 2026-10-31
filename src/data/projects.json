@@ -58,22 +58,28 @@
     ],
     "images": [
       {
-        "src": "/media/projects/alzheimer-ehealth/01-doctor-dashboard.jpg"
+        "src": "/media/projects/alzheimer-ehealth/01-doctor-dashboard.jpg",
+        "fit": "contain"
       },
       {
-        "src": "/media/projects/alzheimer-ehealth/02-ai-risk-assessment.jpg"
+        "src": "/media/projects/alzheimer-ehealth/02-ai-risk-assessment.jpg",
+        "fit": "contain"
       },
       {
-        "src": "/media/projects/alzheimer-ehealth/03-caregiver-reports.jpg"
+        "src": "/media/projects/alzheimer-ehealth/03-caregiver-reports.jpg",
+        "fit": "contain"
       },
       {
-        "src": "/media/projects/alzheimer-ehealth/04-user-management.jpg"
+        "src": "/media/projects/alzheimer-ehealth/04-user-management.jpg",
+        "fit": "contain"
       },
       {
-        "src": "/media/projects/alzheimer-ehealth/05-kubernetes-grafana.jpg"
+        "src": "/media/projects/alzheimer-ehealth/05-kubernetes-grafana.jpg",
+        "fit": "contain"
       },
       {
-        "src": "/media/projects/alzheimer-ehealth/06-jenkins-cicd.jpg"
+        "src": "/media/projects/alzheimer-ehealth/06-jenkins-cicd.jpg",
+        "fit": "contain"
       }
     ],
     "video": "/media/videos/Alzheimer.mp4",
@@ -97,16 +103,42 @@
     ],
     "images": [
       {
-        "src": "/media/projects/digifederation/ceremonie-equipe.avif"
+        "src": "/media/projects/digifederation/cap01-dashboard-general.png",
+        "fit": "contain"
       },
       {
-        "src": "/media/projects/digifederation/ceremonie-trophee.avif"
+        "src": "/media/projects/digifederation/cap04-module-competition.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/digifederation/cap02-licence-qrcode.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/digifederation/cap03-gestion-paiements.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/digifederation/cap05-architecture-microservices.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/digifederation/cap00-connexion.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/digifederation/ceremonie-equipe.avif",
+        "fit": "cover"
+      },
+      {
+        "src": "/media/projects/digifederation/ceremonie.jpg",
+        "fit": "contain"
       }
     ],
     "video": "/media/videos/DigiFederation.mp4",
     "github": "https://github.com/ESPRIT-DSI-INTERS/DigiFederation_finance_licence_competition",
     "demo": null,
-    "poster": "/media/projects/digifederation/ceremonie-equipe.avif"
+    "poster": "/media/projects/digifederation/cap01-dashboard-general.png"
   },
   {
     "slug": "flashdrop",

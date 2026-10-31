@@ -16,6 +16,7 @@ export function getProjects(t: Dictionary): Project[] {
         src: im.src,
         alt: text.shots[i]?.alt ?? fmt(t.projects.shotAlt, { n: i + 1, title: text.title }),
         caption: text.shots[i]?.caption,
+        fit: im.fit,
       })),
     }];
   });

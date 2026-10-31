@@ -379,6 +379,30 @@
         "challenges": [],
         "shots": [
           {
+            "alt": "Tableau de bord général de DigiFederation",
+            "caption": "Tableau de bord général : vue d'ensemble de la plateforme et indicateurs clés de la fédération."
+          },
+          {
+            "alt": "Module Compétitions de DigiFederation",
+            "caption": "Module Compétitions : gestion des tournois, inscriptions d'équipes, calendrier des matchs et classements."
+          },
+          {
+            "alt": "Gestion des licences et licence numérique avec QR code",
+            "caption": "Gestion des licences : validation des pièces justificatives et génération de la licence officielle avec QR code."
+          },
+          {
+            "alt": "Module de gestion financière et des paiements",
+            "caption": "Module Finance : suivi des cotisations, validation des paiements et états de règlement des clubs."
+          },
+          {
+            "alt": "Schéma de l'architecture microservices Docker",
+            "caption": "Architecture microservices : découpage des services NestJS, API Gateway Node.js, RabbitMQ et conteneurisation Docker."
+          },
+          {
+            "alt": "Écran d'authentification et de connexion",
+            "caption": "Portail d'authentification sécurisé avec gestion des rôles (superviseurs, délégués, clubs, arbitres)."
+          },
+          {
             "alt": "Présentation de DigiFederation sur scène avec la direction de la DSI ESPRIT",
             "caption": "Présentation officielle de la plateforme DigiFederation sur scène devant la direction de la DSI et les partenaires institutionnels."
           },

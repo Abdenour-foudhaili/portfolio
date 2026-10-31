@@ -379,6 +379,30 @@
         "challenges": [],
         "shots": [
           {
+            "alt": "DigiFederation main dashboard",
+            "caption": "Main dashboard: platform overview and key indicators for the federation."
+          },
+          {
+            "alt": "DigiFederation Competitions module",
+            "caption": "Competitions module: tournament management, team registrations, match schedules, and rankings."
+          },
+          {
+            "alt": "Licence management and digital licence with QR code",
+            "caption": "Licence management: verification of supporting documents and generation of official digital licences with QR code."
+          },
+          {
+            "alt": "Financial management and payments module",
+            "caption": "Finance module: fee tracking, payment validation, and club settlement statuses."
+          },
+          {
+            "alt": "Docker microservices architecture diagram",
+            "caption": "Microservices architecture: NestJS services breakdown, Node.js API Gateway, RabbitMQ messaging, and Docker containerization."
+          },
+          {
+            "alt": "Authentication and login screen",
+            "caption": "Secure authentication portal with role-based access control (supervisors, regional delegates, clubs, referees)."
+          },
+          {
             "alt": "DigiFederation presentation on stage with ESPRIT IT Directorate and team",
             "caption": "Official presentation of the DigiFederation sports management platform on stage with the IT Directorate."
           },
