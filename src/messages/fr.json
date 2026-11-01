@@ -41,7 +41,7 @@
   },
   "about": {
     "title": "À propos",
-    "summary": "Étudiant en 3ᵉ année du cycle ingénieur en génie logiciel à ESPRIT, je construis des applications Java/Spring Boot, Angular et NestJS reposant sur des architectures microservices. J’ai aussi travaillé sur la chaîne DevOps (Docker, Jenkins, Kubernetes), les tests automatisés (JUnit, Mockito) et un outil d’analyse de code et de génération de tests par IA.",
+    "summary": "Élève ingénieur en dernière année de génie logiciel à ESPRIT, je construis des applications Java/Spring Boot, Angular et NestJS reposant sur des architectures microservices. J’ai aussi travaillé sur la chaîne DevOps (Docker, Jenkins, Kubernetes), les tests automatisés (JUnit, Mockito) et un outil d’analyse de code et de génération de tests par IA.",
     "objective": "Je recherche un stage de fin d’études (PFE) en développement Back-End ou Full-Stack, dans une équipe où concevoir, tester et livrer des services fiables fait partie du quotidien.",
     "interestsTitle": "Centres d’intérêt techniques",
     "interests": [
@@ -457,7 +457,7 @@
         "shots": []
       },
       "plans-incidents": {
-        "title": "Gestion des plans et des incidents en entreprise",
+        "title": "Choufli Hal",
         "tagline": "Plateforme de signalement des incidents et de suivi des plans d’action en entreprise",
         "summary": "Choufli Hal est une plateforme de gestion des incidents et des plans en entreprise : elle permet de signaler un incident, de le suivre jusqu’à sa résolution et de gérer des plans et leurs tâches, avec des interfaces adaptées aux utilisateurs, aux administrateurs et aux super-administrateurs.",
         "context": "",

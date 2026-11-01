@@ -1,4 +1,4 @@
-﻿import type { Metadata, Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 import "../globals.css";
 import { fontClasses } from "@/lib/fonts";
 import { themeInitScript } from "@/lib/theme";
@@ -17,7 +17,7 @@ export const viewport: Viewport = {
   ],
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://abdenour-foudhaili.vercel.app";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
@@ -56,7 +56,7 @@ export default async function LangLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={dirOf(locale)} className={fontClasses} suppressHydrationWarning>
       <head>
-        {/* ExÃ©cutÃ© avant l'hydratation : pose data-theme (thÃ¨me enregistrÃ©, sinon prÃ©fÃ©rence systÃ¨me) pour Ã©viter tout flash. */}
+        {/* Exécuté avant l'hydratation : pose data-theme (thème enregistré, sinon préférence système) pour éviter tout flash. */}
         <link rel="icon" href={asset("/icon.svg")} type="image/svg+xml" sizes="any" />
         <link rel="alternate icon" href={asset("/favicon.ico")} />
         <script id="theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript }} />
