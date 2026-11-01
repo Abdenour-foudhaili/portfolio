@@ -224,7 +224,36 @@
           "Tests automatisés avec Vitest et tests E2E avec Katalon Recorder (Selenium)."
         ],
         "challenges": [],
-        "shots": []
+        "shots": [
+          {
+            "alt": "Revue de Pull Request GitHub par IA",
+            "caption": "Revue automatisée d’une Pull Request sur GitHub avec commentaires de sécurité in-line classés par criticité."
+          },
+          {
+            "alt": "Tableau de bord web Next.js",
+            "caption": "Tableau de bord web : vue d’ensemble des dépôts actifs et historique des revues de code."
+          },
+          {
+            "alt": "Architecture système The AI Code Reviewer",
+            "caption": "Architecture globale du système : NestJS, Docker Java Sandbox, BullMQ, Tree-sitter et intégration GitHub."
+          },
+          {
+            "alt": "Pipeline d’analyse hybride étape par étape",
+            "caption": "Pipeline d’analyse hybride : Tree-sitter, Semgrep, embeddings pgvector, détection et recommandations de code Java."
+          },
+          {
+            "alt": "Tests unitaires de la sandbox Docker et du générateur de tests",
+            "caption": "Tests automatisés Vitest validant l’exécution isolée en conteneur Docker et la génération de tests Java (29 tests réussis)."
+          },
+          {
+            "alt": "Tests d’intégration Semgrep et contexte Java",
+            "caption": "Validation par tests unitaires de l’analyse statique Semgrep et de l’extraction de contexte Java (17 tests réussis)."
+          },
+          {
+            "alt": "Configuration multi-fournisseurs d’IA",
+            "caption": "Gestion multi-modèles LLM : routage dynamique, mécanismes de repli (Gemini, Claude, Groq) et embeddings."
+          }
+        ]
       },
       "alzheimer-ehealth": {
         "title": "Plateforme e-santé de détection des risques d’Alzheimer",

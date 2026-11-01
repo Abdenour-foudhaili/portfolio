@@ -23,11 +23,40 @@
       "Vitest",
       "Katalon Recorder"
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/projects/ai-code-reviewer/01-github-pr-review-fullpage.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/ai-code-reviewer/02-dashboard-web.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/ai-code-reviewer/05-architecture-pipeline.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/ai-code-reviewer/08-hybrid-low-token-pipeline.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/ai-code-reviewer/03-docker-sandbox-tests.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/ai-code-reviewer/04-semgrep-analysis.png",
+        "fit": "contain"
+      },
+      {
+        "src": "/media/projects/ai-code-reviewer/06-ai-providers-config.png",
+        "fit": "contain"
+      }
+    ],
     "video": "/media/videos/ai-code-reviewer.mp4",
     "github": "https://github.com/Sliim-Bouzidi/The-AI-Code-Reviewer",
     "demo": null,
-    "poster": null
+    "poster": "/media/projects/ai-code-reviewer/01-github-pr-review-fullpage.png"
   },
   {
     "slug": "alzheimer-ehealth",

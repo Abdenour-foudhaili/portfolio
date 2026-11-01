@@ -224,7 +224,36 @@
         ],
         "context": "",
         "challenges": [],
-        "shots": []
+        "shots": [
+          {
+            "alt": "AI GitHub Pull Request Review",
+            "caption": "Automated Pull Request review on GitHub with in-line security comments categorized by severity."
+          },
+          {
+            "alt": "Next.js Web Dashboard",
+            "caption": "Web dashboard: active repositories overview and code review history."
+          },
+          {
+            "alt": "The AI Code Reviewer System Architecture",
+            "caption": "End-to-end system architecture: NestJS, Docker Java Sandbox, BullMQ, Tree-sitter, and GitHub integration."
+          },
+          {
+            "alt": "Step-by-step Hybrid Analysis Pipeline",
+            "caption": "Hybrid analysis pipeline: Tree-sitter, Semgrep, pgvector embeddings, and Java code recommendations."
+          },
+          {
+            "alt": "Docker sandbox and test generator unit tests",
+            "caption": "Automated Vitest suite validating isolated Docker container execution and Java test generation (29 passed tests)."
+          },
+          {
+            "alt": "Semgrep integration and Java context tests",
+            "caption": "Unit test validation for Semgrep static analysis and Java context extraction (17 passed tests)."
+          },
+          {
+            "alt": "Multi-model AI Provider Configuration",
+            "caption": "Multi-LLM configuration: dynamic model routing, automated fallback (Gemini, Claude, Groq), and embeddings."
+          }
+        ]
       },
       "alzheimer-ehealth": {
         "title": "E-health platform for Alzheimer’s risk detection",
