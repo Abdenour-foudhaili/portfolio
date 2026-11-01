@@ -228,7 +228,7 @@
       },
       "alzheimer-ehealth": {
         "title": "E-health platform for Alzheimer’s risk detection",
-        "tagline": "Daily assistance microservice and real-time notifications",
+        "tagline": "Patient monitoring, cognitive risk detection, and real-time medical alerts",
         "summary": "A microservices-based platform to monitor patients with Alzheimer’s disease and detect at-risk situations in real time. It offers spaces tailored to each role (administrator, doctor, carer, family caregiver, patient), with centralized authentication. Project carried out at ESPRIT as part of the PIDEV program (4th year).",
         "features": [
           "Role-based access (administrator, doctor, carer, family caregiver, patient) with centralized Keycloak authentication (OAuth2/OIDC)",
@@ -328,7 +328,7 @@
       },
       "digifederation": {
         "title": "DigiFederation",
-        "tagline": "School and university sports management platform on microservices (PFA internship, ESPRIT DSI)",
+        "tagline": "School and university sports management platform built on microservices",
         "summary": "DigiFederation is a school and university sports management platform for a Tunisian federation, built by seven teams with distinct scopes. My team was responsible for the Finance / Licences / Competitions scope: licence applications and the digital licence, competitions, matches and rankings. Project carried out during my PFA internship at ESPRIT’s Information Systems Department, and being prepared for production.",
         "features": [
           "Licences: application with supporting documents (ID card, photo, medical certificate, parental authorization), document review with approval or reasoned rejection, application status tracking",
@@ -458,7 +458,7 @@
       },
       "plans-incidents": {
         "title": "Company plan and incident management",
-        "tagline": "Java and Symfony application with e-mail and SMS notifications",
+        "tagline": "Incident reporting and corporate action plan management platform",
         "summary": "Choufli Hal is an incident and plan management platform for companies: it lets users report an incident, follow it through to resolution and manage plans and their tasks, with interfaces tailored to users, administrators and super administrators.",
         "features": [
           "Incident reporting, with type and status, and follow-up through to resolution",

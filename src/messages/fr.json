@@ -228,7 +228,7 @@
       },
       "alzheimer-ehealth": {
         "title": "Plateforme e-santé de détection des risques d’Alzheimer",
-        "tagline": "Microservice d’assistance quotidienne et notifications temps réel",
+        "tagline": "Surveillance des patients, détection des risques cognitifs et alertes en temps réel",
         "summary": "Plateforme basée sur une architecture microservices pour surveiller les patients atteints d’Alzheimer et détecter les situations à risque en temps réel. Elle propose des espaces adaptés à chaque rôle (administrateur, médecin, soignant, aidant, patient), avec une authentification centralisée. Projet réalisé à ESPRIT dans le cadre du PIDEV (4ᵉ année).",
         "context": "",
         "features": [
@@ -328,7 +328,7 @@
       },
       "digifederation": {
         "title": "DigiFederation",
-        "tagline": "Plateforme de gestion du sport scolaire et universitaire en microservices (stage PFA, DSI ESPRIT)",
+        "tagline": "Plateforme de gestion du sport scolaire et universitaire en architecture microservices",
         "summary": "DigiFederation est une plateforme de gestion du sport scolaire et universitaire pour une fédération tunisienne, développée par sept équipes aux périmètres distincts. Mon équipe était responsable du périmètre Finance / Licences / Compétitions : demandes de licences et licence numérique, compétitions, matchs et classements. Projet réalisé pendant mon stage PFA à la Direction des Systèmes d’Information d’ESPRIT, en préparation pour la mise en production.",
         "context": "Ce projet institutionnel développé pour la Fédération Tunisienne de Sport Scolaire et Universitaire a été officiellement récompensé lors de la cérémonie de clôture à ESPRIT, avec la remise d'un trophée d'honneur et d'une attestation de mérite.",
         "features": [
@@ -458,7 +458,7 @@
       },
       "plans-incidents": {
         "title": "Gestion des plans et des incidents en entreprise",
-        "tagline": "Application Java et Symfony avec notifications e-mail et SMS",
+        "tagline": "Plateforme de signalement des incidents et de suivi des plans d’action en entreprise",
         "summary": "Choufli Hal est une plateforme de gestion des incidents et des plans en entreprise : elle permet de signaler un incident, de le suivre jusqu’à sa résolution et de gérer des plans et leurs tâches, avec des interfaces adaptées aux utilisateurs, aux administrateurs et aux super-administrateurs.",
         "context": "",
         "features": [

@@ -34,6 +34,8 @@ export type ProjectText = {
 
 export type Project = Omit<ProjectMeta, "images"> & ProjectText & { images: Shot[] };
 
+export type Certification = CertificationMeta & { name: string; date: string };
+
 export type CertificationMeta = {
   id: string;
   issuer: string;
