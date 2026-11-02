@@ -1,5 +1,17 @@
 [
   {
+    "id": "hedera-hcda",
+    "issuer": "The Hashgraph Association",
+    "image": "/media/certifications/hedera-certified-developer-associate.webp",
+    "skills": [
+      "Hedera",
+      "Smart Contracts",
+      "DLT",
+      "Web3"
+    ],
+    "verifyUrl": "/media/certifications/Hedera Certified Developer Associate (HCDA).pdf"
+  },
+  {
     "id": "hedera-hcf",
     "issuer": "The Hashgraph Association",
     "image": "/media/certifications/hedera-certified-foundation.webp",
@@ -8,7 +20,7 @@
       "DLT",
       "Web3"
     ],
-    "verifyUrl": "https://certs.hashgraphdev.com/bcb9f73d-20c9-47f1-8fc1-252f1dcce5c9.pdf?v=da0e2919"
+    "verifyUrl": "/media/certifications/Hedera Certified Foundation HCF.pdf"
   },
   {
     "id": "dauphine-dtxe",

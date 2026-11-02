@@ -518,6 +518,10 @@
     "verify": "Vérifier ce certificat",
     "imageSoon": "Image du certificat non disponible",
     "items": {
+      "hedera-hcda": {
+        "name": "Hedera Certified Developer Associate (HCDA)",
+        "date": "2 novembre 2026"
+      },
       "hedera-hcf": {
         "name": "Hedera Certified Foundation (HCF)",
         "date": "29 octobre 2026"
@@ -527,7 +531,7 @@
         "date": "Janvier à Juillet 2024 (attestation du 26/11/2024)"
       },
       "devops-the-bridge": {
-        "name": "Certificate of Completion : formation et coaching DevOps (2 mois)",
+        "name": "Certificate of Completion : formation et coaching DevOps",
         "date": "08/10/2025"
       },
       "nvidia-dl": {
