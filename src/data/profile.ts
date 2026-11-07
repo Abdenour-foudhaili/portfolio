@@ -25,7 +25,7 @@ export const profile = {
     { id: "frameworks", items: ["Spring Boot", "Spring Cloud", "NestJS", "Node.js", "Next.js", "Angular", "JPA/Hibernate", "Symfony", "JavaFX"] },
     { id: "architecture", items: ["Microservices", "API Gateway", "REST API", "WebSocket", "RabbitMQ", "OpenFeign", "Keycloak"] },
     { id: "databases", items: ["PostgreSQL", "Redis", "MySQL", "MongoDB"] },
-    { id: "devops", items: ["Docker", "Kubernetes", "Jenkins (CI/CD)", "Nexus", "SonarQube", "Semgrep (SAST)", "Prometheus", "Grafana"] },
+    { id: "devops", items: ["AWS", "Docker", "Kubernetes", "Jenkins (CI/CD)", "Nexus", "SonarQube", "Semgrep (SAST)", "Prometheus", "Grafana"] },
     { id: "tools", items: ["Git", "Maven", "Vitest", "Selenium (Katalon Recorder)", "JUnit", "Mockito", "Tree-sitter", "Agile", "Scrum", "Power BI"] },
   ],
   experience: [

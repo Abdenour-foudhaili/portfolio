@@ -518,6 +518,10 @@
     "verify": "Verify this certificate",
     "imageSoon": "Certificate image unavailable",
     "items": {
+      "aws-cloud-foundations": {
+        "name": "AWS Academy Graduate – AWS Academy Cloud Foundations",
+        "date": "November 6, 2026"
+      },
       "hedera-hcda": {
         "name": "Hedera Certified Developer Associate (HCDA)",
         "date": "November 2, 2026"

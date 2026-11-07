@@ -1,5 +1,19 @@
 [
   {
+    "id": "aws-cloud-foundations",
+    "issuer": "AWS Academy",
+    "image": "/media/certifications/aws-academy-cloud-foundations.webp",
+    "skills": [
+      "AWS",
+      "Cloud Computing",
+      "IAM",
+      "EC2",
+      "S3",
+      "VPC"
+    ],
+    "verifyUrl": "/media/certifications/AWS_Academy_Graduate___Cloud_Foundations___Training_Badge_Badge20261106-20-gca6zc.png"
+  },
+  {
     "id": "hedera-hcda",
     "issuer": "The Hashgraph Association",
     "image": "/media/certifications/hedera-certified-developer-associate.webp",
@@ -54,11 +68,12 @@
   {
     "id": "beecoders-angular-spring",
     "issuer": "Bee Coders",
-    "image": null,
+    "image": "/media/certifications/fullstack-spring-boot-angular.webp",
     "skills": [
       "Angular",
-      "Spring Boot"
+      "Spring Boot",
+      "Full-Stack"
     ],
-    "verifyUrl": null
+    "verifyUrl": "/media/certifications/Full stack Spring Boot & Angular.pdf"
   }
 ]
