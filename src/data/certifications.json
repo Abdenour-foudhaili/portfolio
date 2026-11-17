@@ -1,5 +1,18 @@
 [
   {
+    "id": "hedera-hbf",
+    "issuer": "The Hashgraph Association",
+    "image": "/media/certifications/hedera-business-foundation.webp",
+    "skills": [
+      "Hedera",
+      "DLT",
+      "Web3",
+      "Tokenomics"
+    ],
+    "verifyUrl": "https://certs.hashgraphdev.com/7efe891e-38c1-4b88-8450-b1ffd6aaaea6.pdf?v=dc21933a",
+    "credentialId": "7efe891e-38c1-4b88-8450-b1ffd6aaaea6"
+  },
+  {
     "id": "aws-cloud-foundations",
     "issuer": "AWS Academy",
     "image": "/media/certifications/aws-academy-cloud-foundations.webp",

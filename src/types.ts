@@ -42,6 +42,7 @@ export type CertificationMeta = {
   image: string | null;
   skills: string[];
   verifyUrl: string | null;
+  credentialId?: string | null;
 };
 
 type Fr = typeof fr;

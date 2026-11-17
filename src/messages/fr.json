@@ -518,6 +518,10 @@
     "verify": "Vérifier ce certificat",
     "imageSoon": "Image du certificat non disponible",
     "items": {
+      "hedera-hbf": {
+        "name": "Hedera Business Foundation (HBF)",
+        "date": "17 novembre 2026"
+      },
       "aws-cloud-foundations": {
         "name": "AWS Academy Graduate – AWS Academy Cloud Foundations",
         "date": "6 novembre 2026"
